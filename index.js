@@ -1,11 +1,6 @@
 import TelegramBot from 'node-telegram-bot-api';
 
-const bot = new TelegramBot(
-  '',
-  {
-    polling: true,
-  }
-);
+const bot = new TelegramBot('');
 
 bot.setWebHook('');
 
