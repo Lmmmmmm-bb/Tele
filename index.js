@@ -7,6 +7,8 @@ const bot = new TelegramBot(
   }
 );
 
+bot.setWebHook('');
+
 bot.on('message', msg => {
   console.log(msg);
   const chatId = msg.chat.id;
